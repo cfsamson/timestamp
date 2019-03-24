@@ -1,5 +1,5 @@
 [package]
-name = "smart_cache"
+name = "timestamp"
 version = "0.1.0"
 authors = ["Carl Fredrik Samson <cf@samson.no>"]
 edition = "2018"
