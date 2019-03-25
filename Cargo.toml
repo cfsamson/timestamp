@@ -5,3 +5,6 @@ authors = ["Carl Fredrik Samson <cf@samson.no>"]
 edition = "2018"
 
 [dependencies]
+
+[dev-dependencies]
+chrono = "0.3"
