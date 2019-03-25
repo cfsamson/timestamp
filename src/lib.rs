@@ -1,2 +1,2 @@
-mod timestamp;
-pub use timestamp::TimeStamp;
+mod ts;
+pub use ts::TimeStamp;
