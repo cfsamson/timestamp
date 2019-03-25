@@ -10,8 +10,7 @@ pub struct TimeStamp {
 
 impl TimeStamp {
     pub fn new(y: u8, m: u8, d: u8, h: u8) -> TimeStamp {
-        let base: u32 = 0x00_00_00_00;
-        let mut ts = base | ((y as u32) << 24);
+        let mut ts = (y as u32) << 24;
         ts |= (m as u32) << 16;
         ts |= (d as u32) << 8;
         ts |= h as u32;
